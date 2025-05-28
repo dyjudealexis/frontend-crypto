@@ -1,18 +1,10 @@
-# Crypgo – Free Tailwind CSS & Next.js Website Template
+# Crypgo
 
-#### Preview
-
- - [Demo](https://themewagon.github.io/Crypgo/)
-
-#### Download
- - [Download from ThemeWagon]( https://themewagon.com/themes/crypgo)
- 
- 
 ## Getting Started
 
 1. Clone from Github 
 ```
-git clone https://github.com/themewagon/Crypgo.git
+git clone https://github.com/dyjudealexis/frontend-crypto.git
 ```
 2. Install Dependencies
 ```
@@ -22,16 +14,3 @@ npm i
 ```
 npm run dev
 ```
-
-## Author
-
-Design and code is completely written by Getnext.jsTemplates design and development team.  
-
-
-## License
-
- - Design and Code is Copyright &copy; [Getnext.jsTemplates](https://getnextjstemplates.com)
- - Licensed cover under [MIT]
- - Distributed by [ThemeWagon](https://themewagon.com)
-
-"# frontend-crypto" 
