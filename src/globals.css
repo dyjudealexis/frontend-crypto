@@ -6,12 +6,13 @@ html {
   scroll-behavior: smooth;
 }
 
-section{
+section {
   @apply bg-darkmode;
 }
 
-.blog-details p, .blog-details hr {
-  @apply mb-8 ;
+.blog-details p,
+.blog-details hr {
+  @apply mb-8;
 }
 
 .blog-details hr {
@@ -40,4 +41,10 @@ section{
 
 .blog-details h3 {
   @apply mb-6 text-2xl font-bold dark:text-white sm:text-[28px] sm:leading-[40px];
+}
+
+@media (max-width: 400px) {
+  body {
+    width: 400px;
+  }
 }

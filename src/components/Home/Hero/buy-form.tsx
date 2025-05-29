@@ -81,12 +81,12 @@ const BuyCrypto = () => {
         <div className="mb-4 relative">
           <div
             onClick={() => setIsDropdownOpen((prev) => !prev)}
-            className="cursor-pointer text-white bg-transparent border border-dark_border border-opacity-60 rounded-md px-3 py-2 text-start"
+            className="cursor-pointer text-white bg-transparent border border-dark_border border-opacity-60 rounded-3xl px-3 py-2 text-start"
           >
             {formData.name}
           </div>
           {isDropdownOpen && (
-            <div className="absolute z-10 bg-dark border border-dark_border border-opacity-60 mt-1 rounded-md w-full">
+            <div className="absolute z-10 bg-dark border border-dark_border border-opacity-60 mt-1 rounded-3xl w-full">
               {cryptos.map((crypto) => (
                 <div
                   key={crypto.name}
@@ -104,7 +104,7 @@ const BuyCrypto = () => {
             id="crypto-price"
             type="text"
             name="price"
-            className="text-white bg-transparent border border-dark_border border-opacity-60 rounded-md px-3 py-2 w-full focus:border-primary focus-visible:outline-0"
+            className="text-white bg-transparent border border-dark_border border-opacity-60 rounded-3xl px-3 py-2 w-full focus:border-primary focus-visible:outline-0"
             value={`$${formData.price.toLocaleString()}`}
             disabled
             required
@@ -120,14 +120,14 @@ const BuyCrypto = () => {
             onChange={handleChange}
             min="0"
             required
-            className="text-white bg-transparent border border-dark_border border-opacity-60 rounded-md px-3 py-2 w-full focus:border-primary focus-visible:outline-0"
+            className="text-white bg-transparent border border-dark_border border-opacity-60 rounded-3xl px-3 py-2 w-full focus:border-primary focus-visible:outline-0"
           />
         </div>
         <div className="flex justify-between mb-4 text-white">
           <p>Total Cost: </p>
           <p>${totalCost}</p>
         </div>
-        <button className="text-darkmode font-medium text-18 bg-primary w-full border border-primary rounded-lg py-3 hover:text-primary hover:bg-transparent">
+        <button className="text-white font-medium text-18 bg-primary w-full border border-primary rounded-3xl py-3 hover:border-white hover:text-primary hover:bg-white">
           Buy
         </button>
       </form>

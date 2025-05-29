@@ -46,7 +46,7 @@ const config: Config = {
         '999': '999'
       },
       colors: {
-        primary: "#99E39E",
+        primary: "#1199fb",
         secondary: "#1DC8CD",
         midnight_text: "#263238",
         muted: "#d8dbdb",
@@ -166,7 +166,7 @@ const config: Config = {
       },
       backgroundImage: {
         "start": "url('/images/work/bg-start.png')",
-        "perk": "url('/images/perks/perk-bg.png')",
+        "perk": "url('')",
       },
       blur: {
         220: '220px',

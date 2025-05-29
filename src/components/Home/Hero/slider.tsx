@@ -66,7 +66,7 @@ const CardSlider = () => {
                   </p>
                 </div>
                 <div className="">
-                  <span className="text-error text-xs">{item.mark}</span>
+                  <span className="text-success text-xs">{item.mark}</span>
                 </div>
               </div>
             </div>

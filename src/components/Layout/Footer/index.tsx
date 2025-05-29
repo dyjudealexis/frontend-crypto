@@ -88,7 +88,7 @@ const Footer: FC = () => {
                 name="mail"
                 id="mail"
                 placeholder="Enter Email"
-                className="bg-transparent border border-dark_border border-opacity-60 py-4 text-white rounded-lg w-full mt-6 px-6"
+                className="bg-transparent border border-dark_border border-opacity-60 py-4 text-white rounded-3xl w-full mt-6 px-6"
               />
               <Icon
                 icon="tabler:send"
