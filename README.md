@@ -41,5 +41,3 @@ Open [http://localhost:3000](http://localhost:3000) to view the app in your brow
 ---
 
 Built with ❤️ using **Next.js** + **TSX**
-
-```
