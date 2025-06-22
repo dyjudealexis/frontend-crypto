@@ -1,4 +1,4 @@
-# 🪙 Crypgo – Crypto App
+# Crypgo – Crypto App
 
 Crypgo is a modern crypto web application built with **Next.js** and **TypeScript (TSX)** by **Jude Alexis Dy**. It provides users with real-time cryptocurrency data, market trends, and other essential crypto-related features.
 
